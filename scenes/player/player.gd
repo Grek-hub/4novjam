@@ -5,8 +5,11 @@ const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
 @onready var player_sprite = $playersprite
+@onready var areaCollision = $colArea
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+
+var canGetHit = true
 
 
 func _physics_process(delta):
@@ -32,8 +35,7 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
-	#print(self.global_position)
-	
+	check_for_mobs()
 	cam_rot()
 	
 
@@ -43,12 +45,32 @@ func _process(delta):
 	sprite_face_player()
 
 
+
+func check_for_mobs():
+	if canGetHit:
+		var overLapBodies = areaCollision.get_overlapping_areas()
+		for i in overLapBodies:
+			var parent = i.get_parent()
+			if parent.name == "mob":
+				get_hit(parent)
+				canGetHit = false
+	else:
+		return
+	
+	#print(len(overLapBodies))
+	#if len(overLapBodies) > 2:
+		#for i in overLapBodies:
+			#if i.name == "mob":
+				#get_hit(i)
+
+
+
 func cam_rot():
 	if Input.is_action_pressed("cam_right"):
-		self.rotation.y -= 0.025
+		self.rotation.y -= 0.05
 
 	if Input.is_action_pressed("cam_left"):
-		self.rotation.y += 0.025
+		self.rotation.y += 0.05
 	
 	
 func sprite_face_player():
@@ -56,3 +78,35 @@ func sprite_face_player():
 	player_sprite.rotation.x = 10	 # change this to change the rotat of the sprite facing player
 	player_sprite.look_at(cam_pos)
 	
+
+
+
+
+func get_hit(body):
+	var mob_pos = body.global_position
+	var hit = mob_pos - self.global_position
+	var dire = hit.normalized()
+	
+	velocity.x -= dire.x * 20
+	velocity.z -= dire.z * 20
+	
+	#body is enemy here
+	body.velocity.x += dire.x * 15
+	body.velocity.z += dire.z * 15
+	
+	print(dire, " - dir ")
+	
+	print(hit)
+	
+
+	
+
+
+func _on_col_area_area_exited(area):
+	canGetHit = true
+
+
+func _on_col_area_area_entered(area):
+	var mob = area.get_parent()
+	# could if it but faster this way
+	get_hit(mob)

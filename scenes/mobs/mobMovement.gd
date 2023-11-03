@@ -29,7 +29,7 @@ func _physics_process(delta):
 
 func sprite_face_player():
 	var cam_pos = player.get_node("cam/playerCamera").global_position
-	print(cam_pos)
+	#print(cam_pos)
 	self.rotation.x = 10	 # change this to change the rotat of the sprite facing player
 	self.look_at(cam_pos)
 	

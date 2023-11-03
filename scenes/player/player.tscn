@@ -1,9 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://cw0xkqh6xubni"]
+[gd_scene load_steps=5 format=3 uid="uid://cw0xkqh6xubni"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_7ln5v"]
 [ext_resource type="Texture2D" uid="uid://byveu7pgyt11j" path="res://icon.svg" id="1_gt1l0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ds425"]
+size = Vector3(0.5, 0.85, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ubii3"]
 
 [node name="player" type="CharacterBody3D"]
 script = ExtResource("1_7ln5v")
@@ -20,3 +23,14 @@ transform = Transform3D(-4.37114e-08, -0.707107, 0.707107, 0, 0.707107, 0.707107
 
 [node name="playerCamera" type="Camera3D" parent="cam"]
 current = true
+
+[node name="colArea" type="Area3D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="colAreaShape" type="CollisionShape3D" parent="colArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0729007, 0)
+shape = SubResource("BoxShape3D_ubii3")
+
+[connection signal="area_entered" from="colArea" to="." method="_on_col_area_area_entered"]
+[connection signal="area_exited" from="colArea" to="." method="_on_col_area_area_exited"]

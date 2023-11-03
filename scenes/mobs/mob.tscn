@@ -1,9 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://1txi6bgggyni"]
+[gd_scene load_steps=5 format=3 uid="uid://1txi6bgggyni"]
 
 [ext_resource type="Texture2D" uid="uid://byveu7pgyt11j" path="res://icon.svg" id="1_gjbyo"]
 [ext_resource type="Script" path="res://scenes/mobs/mobMovement.gd" id="1_rm40g"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdakp"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_ew5uo"]
+size = Vector3(0.5, 0.8, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dy3cc"]
 
 [node name="mob" type="CharacterBody3D"]
 script = ExtResource("1_rm40g")
@@ -13,7 +16,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.516386, 0)
 texture = ExtResource("1_gjbyo")
 
 [node name="colShape" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.594527, 0)
-shape = SubResource("CapsuleShape3D_gdakp")
+shape = SubResource("BoxShape3D_ew5uo")
 
 [node name="navEng" type="NavigationAgent3D" parent="."]
+
+[node name="mobArea" type="Area3D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="hitBox" type="CollisionShape3D" parent="mobArea"]
+shape = SubResource("BoxShape3D_dy3cc")
