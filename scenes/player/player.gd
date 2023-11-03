@@ -85,8 +85,11 @@ func cam_rot():
 	
 func sprite_face_player():
 	var cam_pos = $cam/playerCamera.global_position
+	cam_pos.y -= 2.5
 	player_sprite.rotation.x = 10	 # change this to change the rotat of the sprite facing player
 	player_sprite.look_at(cam_pos)
+	
+	
 	
 
 func _ready():
@@ -115,7 +118,7 @@ func shoot():
 	
 	var parent = obj.get_parent()
 	if obj.name == "mobArea":
-		parent.queue_free()
+		parent.damage_process(self.position)
 	
 func _on_col_area_area_exited(area):
 	canGetHit = true

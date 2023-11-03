@@ -26,14 +26,22 @@ func _physics_process(delta):
 
 
 
-func damage_process():
-	print("miks ma ei kao")
-	self.queue_free()
+func damage_process(playerpos):
+	take_hit(playerpos)
+	#self.queue_free()
 
 
 func sprite_face_player():
 	var cam_pos = player.get_node("cam/playerCamera").global_position
-	#print(cam_pos)
-	$mobSprite.rotation.x = 10	 # change this to change the rotat of the sprite facing player
+	cam_pos.y -= 2.5
+	#print(cam_pos) # change this to change the rotat of the sprite facing player
 	$mobSprite.look_at(cam_pos)
+
+func take_hit(playerpos):
+	var mob_pos = global_position
+	var hit = mob_pos - playerpos
+	var dire = hit.normalized()
+	
+	velocity.x += dire.x * 25
+	velocity.z += dire.z * 25
 	

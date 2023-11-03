@@ -1,19 +1,45 @@
-[gd_scene load_steps=5 format=3 uid="uid://1txi6bgggyni"]
+[gd_scene load_steps=9 format=3 uid="uid://1txi6bgggyni"]
 
-[ext_resource type="Texture2D" uid="uid://byveu7pgyt11j" path="res://icon.svg" id="1_gjbyo"]
 [ext_resource type="Script" path="res://scenes/mobs/mobMovement.gd" id="1_rm40g"]
+[ext_resource type="Texture2D" uid="uid://lkhuhfv3sw0f" path="res://scenes/mobs/mobbin.png" id="2_a83wq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ew5uo"]
 size = Vector3(0.5, 0.8, 0.5)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_dy3cc"]
+size = Vector3(0.681293, 1, 0.597981)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgja6"]
+atlas = ExtResource("2_a83wq")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fodw0"]
+atlas = ExtResource("2_a83wq")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqb8q"]
+atlas = ExtResource("2_a83wq")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7dly3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgja6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fodw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqb8q")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
 
 [node name="mob" type="CharacterBody3D"]
 script = ExtResource("1_rm40g")
-
-[node name="mobSprite" type="Sprite3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.516386, 0)
-texture = ExtResource("1_gjbyo")
 
 [node name="colShape" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_ew5uo")
@@ -26,3 +52,9 @@ collision_mask = 2
 
 [node name="hitBox" type="CollisionShape3D" parent="mobArea"]
 shape = SubResource("BoxShape3D_dy3cc")
+
+[node name="mobSprite" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+sprite_frames = SubResource("SpriteFrames_7dly3")
+animation = &"idle"
+autoplay = "idle"
