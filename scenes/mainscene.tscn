@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://cukh0n8l8ekxp"]
 
 [node name="mainscene" type="Node3D"]
+
+[node name="plane" type="CollisionShape3D" parent="."]
