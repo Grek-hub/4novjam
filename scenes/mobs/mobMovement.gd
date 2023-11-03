@@ -37,7 +37,7 @@ func damage_process(playerpos):
 
 func check_if_alive():
 	if self.current_hp <= 0:
-		self.queue_free()
+		$mobSprite.play("die")
 
 func sprite_face_player():
 	var cam_pos = player.get_node("cam/playerCamera").global_position
@@ -53,3 +53,8 @@ func take_hit(playerpos):
 	velocity.x += dire.x * 25
 	velocity.z += dire.z * 25
 	
+
+
+func _on_mob_sprite_animation_finished():
+	if $mobSprite.animation == "die":
+		self.queue_free()

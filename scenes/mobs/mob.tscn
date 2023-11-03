@@ -1,8 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://1txi6bgggyni"]
+[gd_scene load_steps=23 format=3 uid="uid://1txi6bgggyni"]
 
 [ext_resource type="Script" path="res://scenes/mobs/mobMovement.gd" id="1_rm40g"]
 [ext_resource type="Shader" path="res://scenes/mobs/mobflash.gdshader" id="2_a8qqt"]
 [ext_resource type="Texture2D" uid="uid://lkhuhfv3sw0f" path="res://scenes/mobs/mobbin.png" id="2_a83wq"]
+[ext_resource type="Texture2D" uid="uid://bqihv7h1ioiuf" path="res://scenes/mobs/dieman.png" id="3_j8fmc"]
+[ext_resource type="Texture2D" uid="uid://hgkttd2yx7t0" path="res://scenes/mobs/movepng.png" id="4_3ia2a"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ew5uo"]
 size = Vector3(0.5, 0.8, 0.5)
@@ -14,6 +16,26 @@ size = Vector3(0.681293, 1, 0.597981)
 shader = ExtResource("2_a8qqt")
 shader_parameter/active = false
 shader_parameter/tint = Color(1, 1, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dbelu"]
+atlas = ExtResource("3_j8fmc")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sofmd"]
+atlas = ExtResource("3_j8fmc")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3oa6a"]
+atlas = ExtResource("3_j8fmc")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_curgl"]
+atlas = ExtResource("3_j8fmc")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cw60"]
+atlas = ExtResource("3_j8fmc")
+region = Rect2(512, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kgja6"]
 atlas = ExtResource("2_a83wq")
@@ -27,8 +49,48 @@ region = Rect2(128, 0, 128, 128)
 atlas = ExtResource("2_a83wq")
 region = Rect2(256, 0, 128, 128)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_vii1j"]
+atlas = ExtResource("4_3ia2a")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qqag4"]
+atlas = ExtResource("4_3ia2a")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuy6y"]
+atlas = ExtResource("4_3ia2a")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtp2h"]
+atlas = ExtResource("4_3ia2a")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxnd1"]
+atlas = ExtResource("4_3ia2a")
+region = Rect2(512, 0, 128, 128)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_7dly3"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dbelu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sofmd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3oa6a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_curgl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cw60")
+}],
+"loop": true,
+"name": &"die",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kgja6")
@@ -41,6 +103,26 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vii1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qqag4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuy6y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtp2h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxnd1")
+}],
+"loop": true,
+"name": &"move",
 "speed": 5.0
 }]
 
@@ -60,8 +142,11 @@ collision_mask = 2
 shape = SubResource("BoxShape3D_dy3cc")
 
 [node name="mobSprite" type="AnimatedSprite3D" parent="."]
-transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0)
 material_overlay = SubResource("ShaderMaterial_n1itv")
+shaded = true
 sprite_frames = SubResource("SpriteFrames_7dly3")
-animation = &"idle"
-autoplay = "idle"
+animation = &"die"
+autoplay = "move"
+
+[connection signal="animation_finished" from="mobSprite" to="." method="_on_mob_sprite_animation_finished"]
