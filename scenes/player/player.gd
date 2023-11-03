@@ -39,7 +39,7 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-		$walk.play()
+		#$walk.play()
 		
 		
 	move_and_slide()
@@ -66,7 +66,7 @@ func check_for_mobs():
 			if i.name == "mobArea":
 				get_hit(parent)
 				canGetHit = false
-				$push.play()
+				#$push.play()
 	else:
 		return
 	
