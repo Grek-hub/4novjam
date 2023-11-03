@@ -3,6 +3,7 @@ extends CharacterBody3D
 
 var speed = 2
 var accel = 10
+var current_hp = 50 # can set this during spawn
 @onready var player = get_parent().get_parent().get_node("player")
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -28,8 +29,15 @@ func _physics_process(delta):
 
 func damage_process(playerpos):
 	take_hit(playerpos)
+	self.current_hp -= 10
+	
+	check_if_alive()
 	#self.queue_free()
 
+
+func check_if_alive():
+	if self.current_hp <= 0:
+		self.queue_free()
 
 func sprite_face_player():
 	var cam_pos = player.get_node("cam/playerCamera").global_position

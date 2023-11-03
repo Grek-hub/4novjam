@@ -19,7 +19,7 @@ border_width_bottom = 1
 script = ExtResource("1_7ln5v")
 
 [node name="playersprite" type="Sprite3D" parent="."]
-transform = Transform3D(-4.37114e-08, -0.422618, 0.906308, 0, 0.906308, 0.422618, -1, 1.84732e-08, -3.9616e-08, 0, 0, 0)
+transform = Transform3D(-4.37114e-08, -0.422618, 0.906308, 0, 0.906308, 0.422618, -1, 1.84732e-08, -3.9616e-08, 0, 0.262736, 0)
 texture = ExtResource("1_gt1l0")
 
 [node name="playerCol" type="CollisionShape3D" parent="."]
@@ -32,6 +32,7 @@ transform = Transform3D(-4.37114e-08, -0.707107, 0.707107, 0, 0.707107, 0.707107
 current = true
 
 [node name="healthbar" type="ProgressBar" parent="cam/playerCamera"]
+visible = false
 offset_left = 9.0
 offset_top = 11.0
 offset_right = 260.0

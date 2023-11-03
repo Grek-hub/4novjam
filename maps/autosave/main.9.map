@@ -1,0 +1,188 @@
+// Game: Godot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/BRICK;textures/BRICK/brick_01;textures/BRICK/brick_010;textures/BRICK/brick_011;textures/BRICK/brick_012;textures/BRICK/brick_013;textures/BRICK/brick_014;textures/BRICK/brick_015;textures/BRICK/brick_016;textures/BRICK/brick_017;textures/BRICK/brick_018;textures/BRICK/brick_019;textures/BRICK/brick_02;textures/BRICK/brick_020;textures/BRICK/brick_021;textures/BRICK/brick_022;textures/BRICK/brick_023;textures/BRICK/brick_024;textures/BRICK/brick_02b;textures/BRICK/brick_03;textures/BRICK/brick_04;textures/BRICK/brick_05;textures/BRICK/brick_06;textures/BRICK/brick_07;textures/BRICK/brick_08;textures/BRICK/brick_09;textures/CARPET;textures/CARPET/carpet_01;textures/CARPET/carpet_010;textures/CARPET/carpet_013;textures/CARPET/carpet_014;textures/CARPET/carpet_015;textures/CARPET/carpet_016;textures/CARPET/carpet_017;textures/CARPET/carpet_018;textures/CARPET/carpet_019;textures/CARPET/carpet_02;textures/CARPET/carpet_020;textures/CARPET/carpet_021;textures/CARPET/carpet_022;textures/CARPET/carpet_03;textures/CARPET/carpet_04;textures/CARPET/carpet_05;textures/CARPET/carpet_06;textures/CARPET/carpet_07;textures/CARPET/carpet_08;textures/CARPET/carpet_09;textures/CARPET/generic carpet maps;textures/CEILING;textures/CITY;textures/CITY/city_01;textures/CITY/city_010;textures/CITY/city_011;textures/CITY/city_012;textures/CITY/city_013;textures/CITY/city_014;textures/CITY/city_015;textures/CITY/city_017;textures/CITY/city_018;textures/CITY/city_019;textures/CITY/city_02;textures/CITY/city_020;textures/CITY/city_03;textures/CITY/city_04;textures/CITY/city_05;textures/CITY/city_06;textures/CITY/city_07;textures/CITY/city_08;textures/CITY/city_09;textures/METAL;textures/METAL/metal_01;textures/METAL/metal_02;textures/METAL/metal_03;textures/METAL/metal_04;textures/METAL/metal_05;textures/METAL/metal_06;textures/METAL/metal_07;textures/METAL/metal_08;textures/METAL/metal_09;textures/MISC;textures/NATURAL;textures/NATURAL/nature_01;textures/NATURAL/nature_010;textures/NATURAL/nature_011;textures/NATURAL/nature_012;textures/NATURAL/nature_013;textures/NATURAL/nature_014;textures/NATURAL/nature_015;textures/NATURAL/nature_016;textures/NATURAL/nature_017;textures/NATURAL/nature_018;textures/NATURAL/nature_019;textures/NATURAL/nature_02;textures/NATURAL/nature_03;textures/NATURAL/nature_04;textures/NATURAL/nature_05;textures/NATURAL/nature_06;textures/NATURAL/nature_07;textures/NATURAL/nature_08;textures/NATURAL/nature_09;textures/SCIFI;textures/SCIFI/scifi_01;textures/SCIFI/scifi_010;textures/SCIFI/scifi_011;textures/SCIFI/scifi_012;textures/SCIFI/scifi_013;textures/SCIFI/scifi_014;textures/SCIFI/scifi_015;textures/SCIFI/scifi_016;textures/SCIFI/scifi_017;textures/SCIFI/scifi_018;textures/SCIFI/scifi_019;textures/SCIFI/scifi_02;textures/SCIFI/scifi_020;textures/SCIFI/scifi_021;textures/SCIFI/scifi_022;textures/SCIFI/scifi_023;textures/SCIFI/scifi_024;textures/SCIFI/scifi_025;textures/SCIFI/scifi_026;textures/SCIFI/scifi_027;textures/SCIFI/scifi_028;textures/SCIFI/scifi_029;textures/SCIFI/scifi_03;textures/SCIFI/scifi_030;textures/SCIFI/scifi_031;textures/SCIFI/scifi_032;textures/SCIFI/scifi_033;textures/SCIFI/scifi_034;textures/SCIFI/scifi_035;textures/SCIFI/scifi_036;textures/SCIFI/scifi_037;textures/SCIFI/scifi_038;textures/SCIFI/scifi_039;textures/SCIFI/scifi_04;textures/SCIFI/scifi_040;textures/SCIFI/scifi_041;textures/SCIFI/scifi_042;textures/SCIFI/scifi_043;textures/SCIFI/scifi_044;textures/SCIFI/scifi_045;textures/SCIFI/scifi_046;textures/SCIFI/scifi_047;textures/SCIFI/scifi_048;textures/SCIFI/scifi_049;textures/SCIFI/scifi_05;textures/SCIFI/scifi_050;textures/SCIFI/scifi_051;textures/SCIFI/scifi_052;textures/SCIFI/scifi_053;textures/SCIFI/scifi_054;textures/SCIFI/scifi_06;textures/SCIFI/scifi_07;textures/SCIFI/scifi_08;textures/SCIFI/scifi_09;textures/STONE;textures/STONE/stone_01;textures/STONE/stone_010;textures/STONE/stone_011;textures/STONE/stone_012;textures/STONE/stone_02;textures/STONE/stone_03;textures/STONE/stone_04;textures/STONE/stone_05;textures/STONE/stone_06;textures/STONE/stone_07;textures/STONE/stone_08;textures/STONE/stone_09;textures/TEXTURES;textures/TEXTURES/BRICK;textures/TEXTURES/BRICK/brick_01;textures/TEXTURES/BRICK/brick_010;textures/TEXTURES/BRICK/brick_011;textures/TEXTURES/BRICK/brick_012;textures/TEXTURES/BRICK/brick_013;textures/TEXTURES/BRICK/brick_014;textures/TEXTURES/BRICK/brick_015;textures/TEXTURES/BRICK/brick_016;textures/TEXTURES/BRICK/brick_017;textures/TEXTURES/BRICK/brick_018;textures/TEXTURES/BRICK/brick_019;textures/TEXTURES/BRICK/brick_02;textures/TEXTURES/BRICK/brick_020;textures/TEXTURES/BRICK/brick_021;textures/TEXTURES/BRICK/brick_022;textures/TEXTURES/BRICK/brick_023;textures/TEXTURES/BRICK/brick_024;textures/TEXTURES/BRICK/brick_02b;textures/TEXTURES/BRICK/brick_03;textures/TEXTURES/BRICK/brick_04;textures/TEXTURES/BRICK/brick_05;textures/TEXTURES/BRICK/brick_06;textures/TEXTURES/BRICK/brick_07;textures/TEXTURES/BRICK/brick_08;textures/TEXTURES/BRICK/brick_09;textures/TEXTURES/CARPET;textures/TEXTURES/CARPET/carpet_01;textures/TEXTURES/CARPET/carpet_010;textures/TEXTURES/CARPET/carpet_013;textures/TEXTURES/CARPET/carpet_014;textures/TEXTURES/CARPET/carpet_015;textures/TEXTURES/CARPET/carpet_016;textures/TEXTURES/CARPET/carpet_017;textures/TEXTURES/CARPET/carpet_018;textures/TEXTURES/CARPET/carpet_019;textures/TEXTURES/CARPET/carpet_02;textures/TEXTURES/CARPET/carpet_020;textures/TEXTURES/CARPET/carpet_021;textures/TEXTURES/CARPET/carpet_022;textures/TEXTURES/CARPET/carpet_03;textures/TEXTURES/CARPET/carpet_04;textures/TEXTURES/CARPET/carpet_05;textures/TEXTURES/CARPET/carpet_06;textures/TEXTURES/CARPET/carpet_07;textures/TEXTURES/CARPET/carpet_08;textures/TEXTURES/CARPET/carpet_09;textures/TEXTURES/CARPET/generic carpet maps;textures/TEXTURES/CEILING;textures/TEXTURES/CITY;textures/TEXTURES/CITY/city_01;textures/TEXTURES/CITY/city_010;textures/TEXTURES/CITY/city_011;textures/TEXTURES/CITY/city_012;textures/TEXTURES/CITY/city_013;textures/TEXTURES/CITY/city_014;textures/TEXTURES/CITY/city_015;textures/TEXTURES/CITY/city_017;textures/TEXTURES/CITY/city_018;textures/TEXTURES/CITY/city_019;textures/TEXTURES/CITY/city_02;textures/TEXTURES/CITY/city_020;textures/TEXTURES/CITY/city_03;textures/TEXTURES/CITY/city_04;textures/TEXTURES/CITY/city_05;textures/TEXTURES/CITY/city_06;textures/TEXTURES/CITY/city_07;textures/TEXTURES/CITY/city_08;textures/TEXTURES/CITY/city_09;textures/TEXTURES/METAL;textures/TEXTURES/METAL/metal_01;textures/TEXTURES/METAL/metal_02;textures/TEXTURES/METAL/metal_03;textures/TEXTURES/METAL/metal_04;textures/TEXTURES/METAL/metal_05;textures/TEXTURES/METAL/metal_06;textures/TEXTURES/METAL/metal_07;textures/TEXTURES/METAL/metal_08;textures/TEXTURES/METAL/metal_09;textures/TEXTURES/MISC;textures/TEXTURES/NATURAL;textures/TEXTURES/NATURAL/nature_01;textures/TEXTURES/NATURAL/nature_010;textures/TEXTURES/NATURAL/nature_011;textures/TEXTURES/NATURAL/nature_012;textures/TEXTURES/NATURAL/nature_013;textures/TEXTURES/NATURAL/nature_014;textures/TEXTURES/NATURAL/nature_015;textures/TEXTURES/NATURAL/nature_016;textures/TEXTURES/NATURAL/nature_017;textures/TEXTURES/NATURAL/nature_018;textures/TEXTURES/NATURAL/nature_019;textures/TEXTURES/NATURAL/nature_02;textures/TEXTURES/NATURAL/nature_03;textures/TEXTURES/NATURAL/nature_04;textures/TEXTURES/NATURAL/nature_05;textures/TEXTURES/NATURAL/nature_06;textures/TEXTURES/NATURAL/nature_07;textures/TEXTURES/NATURAL/nature_08;textures/TEXTURES/NATURAL/nature_09;textures/TEXTURES/SCIFI;textures/TEXTURES/SCIFI/scifi_01;textures/TEXTURES/SCIFI/scifi_010;textures/TEXTURES/SCIFI/scifi_011;textures/TEXTURES/SCIFI/scifi_012;textures/TEXTURES/SCIFI/scifi_013;textures/TEXTURES/SCIFI/scifi_014;textures/TEXTURES/SCIFI/scifi_015;textures/TEXTURES/SCIFI/scifi_016;textures/TEXTURES/SCIFI/scifi_017;textures/TEXTURES/SCIFI/scifi_018;textures/TEXTURES/SCIFI/scifi_019;textures/TEXTURES/SCIFI/scifi_02;textures/TEXTURES/SCIFI/scifi_020;textures/TEXTURES/SCIFI/scifi_021;textures/TEXTURES/SCIFI/scifi_022;textures/TEXTURES/SCIFI/scifi_023;textures/TEXTURES/SCIFI/scifi_024;textures/TEXTURES/SCIFI/scifi_025;textures/TEXTURES/SCIFI/scifi_026;textures/TEXTURES/SCIFI/scifi_027;textures/TEXTURES/SCIFI/scifi_028;textures/TEXTURES/SCIFI/scifi_029;textures/TEXTURES/SCIFI/scifi_03;textures/TEXTURES/SCIFI/scifi_030;textures/TEXTURES/SCIFI/scifi_031;textures/TEXTURES/SCIFI/scifi_032;textures/TEXTURES/SCIFI/scifi_033;textures/TEXTURES/SCIFI/scifi_034;textures/TEXTURES/SCIFI/scifi_035;textures/TEXTURES/SCIFI/scifi_036;textures/TEXTURES/SCIFI/scifi_037;textures/TEXTURES/SCIFI/scifi_038;textures/TEXTURES/SCIFI/scifi_039;textures/TEXTURES/SCIFI/scifi_04;textures/TEXTURES/SCIFI/scifi_040;textures/TEXTURES/SCIFI/scifi_041;textures/TEXTURES/SCIFI/scifi_042;textures/TEXTURES/SCIFI/scifi_043;textures/TEXTURES/SCIFI/scifi_044;textures/TEXTURES/SCIFI/scifi_045;textures/TEXTURES/SCIFI/scifi_046;textures/TEXTURES/SCIFI/scifi_047;textures/TEXTURES/SCIFI/scifi_048;textures/TEXTURES/SCIFI/scifi_049;textures/TEXTURES/SCIFI/scifi_05;textures/TEXTURES/SCIFI/scifi_050;textures/TEXTURES/SCIFI/scifi_051;textures/TEXTURES/SCIFI/scifi_052;textures/TEXTURES/SCIFI/scifi_053;textures/TEXTURES/SCIFI/scifi_054;textures/TEXTURES/SCIFI/scifi_06;textures/TEXTURES/SCIFI/scifi_07;textures/TEXTURES/SCIFI/scifi_08;textures/TEXTURES/SCIFI/scifi_09;textures/TEXTURES/STONE;textures/TEXTURES/STONE/stone_01;textures/TEXTURES/STONE/stone_010;textures/TEXTURES/STONE/stone_011;textures/TEXTURES/STONE/stone_012;textures/TEXTURES/STONE/stone_02;textures/TEXTURES/STONE/stone_03;textures/TEXTURES/STONE/stone_04;textures/TEXTURES/STONE/stone_05;textures/TEXTURES/STONE/stone_06;textures/TEXTURES/STONE/stone_07;textures/TEXTURES/STONE/stone_08;textures/TEXTURES/STONE/stone_09;textures/TEXTURES/TILE;textures/TEXTURES/TILE/tile_01;textures/TEXTURES/TILE/tile_010;textures/TEXTURES/TILE/tile_011;textures/TEXTURES/TILE/tile_012;textures/TEXTURES/TILE/tile_013;textures/TEXTURES/TILE/tile_014;textures/TEXTURES/TILE/tile_015;textures/TEXTURES/TILE/tile_016;textures/TEXTURES/TILE/tile_017;textures/TEXTURES/TILE/tile_018;textures/TEXTURES/TILE/tile_019;textures/TEXTURES/TILE/tile_02;textures/TEXTURES/TILE/tile_020;textures/TEXTURES/TILE/tile_021;textures/TEXTURES/TILE/tile_022;textures/TEXTURES/TILE/tile_023;textures/TEXTURES/TILE/tile_024;textures/TEXTURES/TILE/tile_025;textures/TEXTURES/TILE/tile_026;textures/TEXTURES/TILE/tile_03;textures/TEXTURES/TILE/tile_04;textures/TEXTURES/TILE/tile_05;textures/TEXTURES/TILE/tile_06;textures/TEXTURES/TILE/tile_07;textures/TEXTURES/TILE/tile_08;textures/TEXTURES/TILE/tile_09;textures/TEXTURES/WALL;textures/TEXTURES/WALL/wall_01;textures/TEXTURES/WALL/wall_010;textures/TEXTURES/WALL/wall_011;textures/TEXTURES/WALL/wall_012;textures/TEXTURES/WALL/wall_013;textures/TEXTURES/WALL/wall_014;textures/TEXTURES/WALL/wall_02;textures/TEXTURES/WALL/wall_03;textures/TEXTURES/WALL/wall_04;textures/TEXTURES/WALL/wall_05;textures/TEXTURES/WALL/wall_06;textures/TEXTURES/WALL/wall_07;textures/TEXTURES/WALL/wall_08;textures/TEXTURES/WALL/wall_09;textures/TEXTURES/WEIRD;textures/TEXTURES/WEIRD/weird_01;textures/TEXTURES/WEIRD/weird_010;textures/TEXTURES/WEIRD/weird_011;textures/TEXTURES/WEIRD/weird_012;textures/TEXTURES/WEIRD/weird_013;textures/TEXTURES/WEIRD/weird_02;textures/TEXTURES/WEIRD/weird_03;textures/TEXTURES/WEIRD/weird_04;textures/TEXTURES/WEIRD/weird_05;textures/TEXTURES/WEIRD/weird_06;textures/TEXTURES/WEIRD/weird_07;textures/TEXTURES/WEIRD/weird_08;textures/TEXTURES/WEIRD/weird_09;textures/TEXTURES/WOOD;textures/TEXTURES/WOOD/wood_01;textures/TEXTURES/WOOD/wood_02;textures/TEXTURES/WOOD/wood_03;textures/TEXTURES/WOOD/wood_04;textures/TEXTURES/WOOD/wood_05;textures/TEXTURES/WOOD/wood_06;textures/TILE;textures/TILE/tile_01;textures/TILE/tile_010;textures/TILE/tile_011;textures/TILE/tile_012;textures/TILE/tile_013;textures/TILE/tile_014;textures/TILE/tile_015;textures/TILE/tile_016;textures/TILE/tile_017;textures/TILE/tile_018;textures/TILE/tile_019;textures/TILE/tile_02;textures/TILE/tile_020;textures/TILE/tile_021;textures/TILE/tile_022;textures/TILE/tile_023;textures/TILE/tile_024;textures/TILE/tile_025;textures/TILE/tile_026;textures/TILE/tile_03;textures/TILE/tile_04;textures/TILE/tile_05;textures/TILE/tile_06;textures/TILE/tile_07;textures/TILE/tile_08;textures/TILE/tile_09;textures/WALL;textures/WALL/wall_01;textures/WALL/wall_010;textures/WALL/wall_011;textures/WALL/wall_012;textures/WALL/wall_013;textures/WALL/wall_014;textures/WALL/wall_02;textures/WALL/wall_03;textures/WALL/wall_04;textures/WALL/wall_05;textures/WALL/wall_06;textures/WALL/wall_07;textures/WALL/wall_08;textures/WALL/wall_09;textures/WEIRD;textures/WEIRD/weird_01;textures/WEIRD/weird_010;textures/WEIRD/weird_011;textures/WEIRD/weird_012;textures/WEIRD/weird_013;textures/WEIRD/weird_02;textures/WEIRD/weird_03;textures/WEIRD/weird_04;textures/WEIRD/weird_05;textures/WEIRD/weird_06;textures/WEIRD/weird_07;textures/WEIRD/weird_08;textures/WEIRD/weird_09;textures/WOOD;textures/WOOD/wood_01;textures/WOOD/wood_02;textures/WOOD/wood_03;textures/WOOD/wood_04;textures/WOOD/wood_05;textures/WOOD/wood_06"
+"_tb_mod" "textures"
+// brush 0
+{
+( 784 -128 304 ) ( 784 -127 304 ) ( 784 -128 305 ) TEXTURES/TILE/tile_019/tile_019-6 0 0 0 1 1
+( 16 -860 304 ) ( 16 -860 305 ) ( 17 -860 304 ) TEXTURES/TILE/tile_019/tile_019-6 -8 0 0 1 1
+( 16 -128 176 ) ( 17 -128 176 ) ( 16 -127 176 ) TEXTURES/TILE/tile_019/tile_019-6 -8 0 0 1 1
+( 144 0 208 ) ( 144 1 208 ) ( 145 0 208 ) TEXTURES/TILE/tile_019/tile_019-6 -8 0 0 1 1
+( 144 -608 336 ) ( 145 -608 336 ) ( 144 -608 337 ) TEXTURES/TILE/tile_019/tile_019-6 159 17 0 1 1
+( 1304 0 336 ) ( 1304 0 337 ) ( 1304 1 336 ) TEXTURES/TILE/tile_019/tile_019-6 0 0 0 1 1
+}
+// brush 1
+{
+( 752 124 384 ) ( 752 125 384 ) ( 752 124 385 ) brick1 4 -16 0 1 1
+( 16 -608 384 ) ( 16 -608 385 ) ( 17 -608 384 ) brick1 24 -16 0 1 1
+( 16 124 176 ) ( 17 124 176 ) ( 16 125 176 ) brick1 24 -4 0 1 1
+( 144 252 256 ) ( 144 253 256 ) ( 145 252 256 ) brick1 24 -4 0 1 1
+( 144 -580 416 ) ( 145 -580 416 ) ( 144 -580 417 ) brick1 30.333374 -16 0 1 1
+( 1280 252 416 ) ( 1280 252 417 ) ( 1280 253 416 ) brick1 4 -16 0 1 1
+}
+// brush 2
+{
+( 752 436 416 ) ( 752 436 417 ) ( 752 435 416 ) brick1 -4 -16 180 1 -1
+( 1644 -832 448 ) ( 1644 -832 449 ) ( 1645 -832 448 ) brick1 -12 -16 0 1 1
+( 1516 436 208 ) ( 1516 435 208 ) ( 1517 436 208 ) brick1 -4 12 270 1 1
+( 1644 308 256 ) ( 1645 308 256 ) ( 1644 307 256 ) brick1 -4 12 270 1 1
+( 1516 -608 416 ) ( 1517 -608 416 ) ( 1516 -608 417 ) brick1 -12 -16 0 1 1
+( 812 308 448 ) ( 812 307 448 ) ( 812 308 449 ) brick1 2.333374 -16 180 1 -1
+}
+// brush 3
+{
+( 1288 -104 416 ) ( 1288 -103 416 ) ( 1288 -104 417 ) brick1 8 -16 0 1 1
+( 224 -836 416 ) ( 224 -836 417 ) ( 225 -836 416 ) brick1 8 -16 0 1 1
+( 224 -104 208 ) ( 225 -104 208 ) ( 224 -103 208 ) brick1 8 -8 0 1 1
+( 352 24 320 ) ( 352 25 320 ) ( 353 24 320 ) brick1 8 -8 0 1 1
+( 352 -736 448 ) ( 353 -736 448 ) ( 352 -736 449 ) brick1 14.333374 -16 0 1 1
+( 1312 24 448 ) ( 1312 24 449 ) ( 1312 25 448 ) brick1 8 -16 0 1 1
+}
+// brush 4
+{
+( 1280 56 416 ) ( 1280 57 416 ) ( 1280 56 417 ) brick1 -24 -16 0 1 1
+( 216 -676 416 ) ( 216 -676 417 ) ( 217 -676 416 ) brick1 16 -16 0 1 1
+( 216 56 208 ) ( 217 56 208 ) ( 216 57 208 ) brick1 16 24 0 1 1
+( 344 184 320 ) ( 344 185 320 ) ( 345 184 320 ) brick1 16 24 0 1 1
+( 344 -576 448 ) ( 345 -576 448 ) ( 344 -576 449 ) brick1 22.333374 -16 0 1 1
+( 1304 184 448 ) ( 1304 184 449 ) ( 1304 185 448 ) brick1 -24 -16 0 1 1
+}
+// brush 5
+{
+( 976 92 384 ) ( 976 93 384 ) ( 976 92 385 ) brick1 4 -16 0 1 1
+( 192 -760 384 ) ( 192 -760 385 ) ( 193 -760 384 ) brick1 -24 -16 0 1 1
+( 192 92 208 ) ( 193 92 208 ) ( 192 93 208 ) brick1 -24 -4 0 1 1
+( 320 220 344 ) ( 320 221 344 ) ( 321 220 344 ) brick1 -24 -4 0 1 1
+( 320 -608 416 ) ( 321 -608 416 ) ( 320 -608 417 ) brick1 -17.666626 -16 0 1 1
+( 1008 220 416 ) ( 1008 220 417 ) ( 1008 221 416 ) brick1 4 -16 0 1 1
+}
+// brush 6
+{
+( 1314 -112 341 ) ( 1314 -111 341 ) ( 1314 -112 342 ) brick1 -16 -27 0 1 1
+( 250 -844 341 ) ( 250 -844 342 ) ( 251 -844 341 ) brick1 14 -27 0 1 1
+( 250 -112 103 ) ( 251 -112 103 ) ( 250 -111 103 ) brick1 14 16 0 1 1
+( 378 16 137 ) ( 378 17 137 ) ( 379 16 137 ) brick1 14 16 0 1 1
+( 378 -589 373 ) ( 379 -589 373 ) ( 378 -589 374 ) brick1 20.333374 -27 0 1 1
+( 1664 16 373 ) ( 1664 16 374 ) ( 1664 17 373 ) brick1 -16 -27 0 1 1
+}
+// brush 7
+{
+( 824 -672 208 ) ( 824 -671 208 ) ( 824 -672 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 0 0 1 1
+( 824 -712 208 ) ( 824 -712 209 ) ( 825 -712 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 0 0 1 1
+( 824 -672 216 ) ( 825 -672 216 ) ( 824 -671 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 880 -616 224 ) ( 880 -615 224 ) ( 881 -616 224 ) TEXTURES/WEIRD/weird_02/weird_02-2 0 -8 0 1 1
+( 880 -616 216 ) ( 881 -616 216 ) ( 880 -616 217 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 0 0 1 1
+( 880 -616 216 ) ( 880 -616 217 ) ( 880 -615 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 0 0 1 1
+}
+// brush 8
+{
+( 832 -640 224 ) ( 832 -639 224 ) ( 832 -640 225 ) TEXTURES/WALL/wall_09/wall_09-2 8 0 0 1 1
+( 832 -632 224 ) ( 832 -632 225 ) ( 833 -632 224 ) TEXTURES/WALL/wall_09/wall_09-2 0 0 0 1 1
+( 832 -640 224 ) ( 833 -640 224 ) ( 832 -639 224 ) TEXTURES/WALL/wall_09/wall_09-2 0 -8 0 1 1
+( 872 -616 232 ) ( 872 -615 232 ) ( 873 -616 232 ) TEXTURES/WALL/wall_09/wall_09-2 0 -8 0 1 1
+( 872 -616 232 ) ( 873 -616 232 ) ( 872 -616 233 ) TEXTURES/WALL/wall_09/wall_09-2 0 0 0 1 1
+( 872 -616 232 ) ( 872 -616 233 ) ( 872 -615 232 ) TEXTURES/WALL/wall_09/wall_09-2 8 0 0 1 1
+}
+// brush 9
+{
+( 824 -672 200 ) ( 824 -671 200 ) ( 824 -672 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 -8 0 1 1
+( 824 -712 200 ) ( 824 -712 201 ) ( 825 -712 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 824 -672 208 ) ( 825 -672 208 ) ( 824 -671 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 880 -616 216 ) ( 880 -615 216 ) ( 881 -616 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 880 -704 208 ) ( 881 -704 208 ) ( 880 -704 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 832 -616 208 ) ( 832 -616 209 ) ( 832 -615 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 -8 0 1 1
+}
+// brush 10
+{
+( 872 -672 200 ) ( 872 -671 200 ) ( 872 -672 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 -8 0 1 1
+( 872 -712 200 ) ( 872 -712 201 ) ( 873 -712 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 872 -672 208 ) ( 873 -672 208 ) ( 872 -671 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 928 -616 216 ) ( 928 -615 216 ) ( 929 -616 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 928 -704 208 ) ( 929 -704 208 ) ( 928 -704 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 880 -616 208 ) ( 880 -616 209 ) ( 880 -615 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 8 -8 0 1 1
+}
+// brush 11
+{
+( 872 -584 200 ) ( 872 -583 200 ) ( 872 -584 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 -16 -8 0 1 1
+( 872 -624 200 ) ( 872 -624 201 ) ( 873 -624 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 872 -584 208 ) ( 873 -584 208 ) ( 872 -583 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 16 0 1 1
+( 928 -528 216 ) ( 928 -527 216 ) ( 929 -528 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 16 0 1 1
+( 928 -616 208 ) ( 929 -616 208 ) ( 928 -616 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 880 -528 208 ) ( 880 -528 209 ) ( 880 -527 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 -16 -8 0 1 1
+}
+// brush 12
+{
+( 824 -584 200 ) ( 824 -583 200 ) ( 824 -584 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 -16 -8 0 1 1
+( 824 -624 200 ) ( 824 -624 201 ) ( 825 -624 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 824 -584 208 ) ( 825 -584 208 ) ( 824 -583 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 16 0 1 1
+( 880 -528 216 ) ( 880 -527 216 ) ( 881 -528 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 16 0 1 1
+( 880 -616 208 ) ( 881 -616 208 ) ( 880 -616 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 832 -528 208 ) ( 832 -528 209 ) ( 832 -527 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 -16 -8 0 1 1
+}
+// brush 13
+{
+( 744 -840 208 ) ( 744 -832 208 ) ( 744 -840 320 ) brick1 0 -16 0 1 1
+( 744 -840 320 ) ( 859 -840 320 ) ( 744 -840 208 ) brick1 -8 -16 0 1 1
+( 744 -840 208 ) ( 859 -840 208 ) ( 744 -832 208 ) brick1 -8 0 0 1 1
+( 744 -832 320 ) ( 859 -832 320 ) ( 744 -840 320 ) brick1 -8 0 0 1 1
+( 744 -832 208 ) ( 859 -832 208 ) ( 744 -832 320 ) brick1 -1.666626 -16 0 1 1
+( 859 -840 208 ) ( 859 -840 320 ) ( 859 -832 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+// brush 14
+{
+( 859 -840 320 ) ( 859 -840 287 ) ( 859 -832 320 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 900 -840 320 ) ( 900 -840 287 ) ( 859 -840 320 ) brick1 -8 -16 0 1 1
+( 900 -840 287 ) ( 900 -832 287 ) ( 859 -840 287 ) TEXTURES/TILE/tile_019/tile_019-6 8 0 0 1 1
+( 900 -840 320 ) ( 859 -840 320 ) ( 900 -832 320 ) brick1 -8 0 0 1 1
+( 859 -832 320 ) ( 859 -832 287 ) ( 900 -832 320 ) brick1 -1.666626 -16 0 1 1
+( 900 -832 320 ) ( 900 -832 287 ) ( 900 -840 320 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+// brush 15
+{
+( 859 -832 208 ) ( 859 -832 245 ) ( 859 -840 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 859 -840 208 ) ( 859 -840 245 ) ( 900 -840 208 ) brick1 -8 -16 0 1 1
+( 900 -832 208 ) ( 859 -832 208 ) ( 900 -840 208 ) brick1 -8 0 0 1 1
+( 859 -832 245 ) ( 900 -832 245 ) ( 859 -840 245 ) TEXTURES/TILE/tile_019/tile_019-6 8 0 0 1 1
+( 900 -832 208 ) ( 900 -832 245 ) ( 859 -832 208 ) brick1 -1.666626 -16 0 1 1
+( 900 -840 208 ) ( 900 -840 245 ) ( 900 -832 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+// brush 16
+{
+( 1004 -832 320 ) ( 1004 -840 320 ) ( 1004 -832 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 1312 -840 208 ) ( 1004 -840 208 ) ( 1312 -840 320 ) brick1 -8 -16 0 1 1
+( 1312 -832 208 ) ( 1004 -832 208 ) ( 1312 -840 208 ) brick1 -8 0 0 1 1
+( 1312 -840 320 ) ( 1004 -840 320 ) ( 1312 -832 320 ) brick1 -8 0 0 1 1
+( 1312 -832 320 ) ( 1004 -832 320 ) ( 1312 -832 208 ) brick1 -1.666626 -16 0 1 1
+( 1312 -840 320 ) ( 1312 -832 320 ) ( 1312 -840 208 ) brick1 0 -16 0 1 1
+}
+// brush 17
+{
+( 900 -840 208 ) ( 900 -832 208 ) ( 900 -840 320 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 900 -840 320 ) ( 963 -840 320 ) ( 900 -840 208 ) brick1 -8 -16 0 1 1
+( 900 -840 208 ) ( 963 -840 208 ) ( 900 -832 208 ) brick1 -8 0 0 1 1
+( 900 -832 320 ) ( 963 -832 320 ) ( 900 -840 320 ) brick1 -8 0 0 1 1
+( 900 -832 208 ) ( 963 -832 208 ) ( 900 -832 320 ) brick1 -1.666626 -16 0 1 1
+( 963 -840 208 ) ( 963 -840 320 ) ( 963 -832 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+// brush 18
+{
+( 963 -840 320 ) ( 963 -840 287 ) ( 963 -832 320 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 1004 -840 320 ) ( 1004 -840 287 ) ( 963 -840 320 ) brick1 -8 -16 0 1 1
+( 1004 -840 287 ) ( 1004 -832 287 ) ( 963 -840 287 ) TEXTURES/TILE/tile_019/tile_019-6 -32 0 0 1 1
+( 1004 -840 320 ) ( 963 -840 320 ) ( 1004 -832 320 ) brick1 -8 0 0 1 1
+( 963 -832 320 ) ( 963 -832 287 ) ( 1004 -832 320 ) brick1 -1.666626 -16 0 1 1
+( 1004 -832 320 ) ( 1004 -832 287 ) ( 1004 -840 320 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+// brush 19
+{
+( 963 -832 208 ) ( 963 -832 245 ) ( 963 -840 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+( 963 -840 208 ) ( 963 -840 245 ) ( 1004 -840 208 ) brick1 -8 -16 0 1 1
+( 1004 -832 208 ) ( 963 -832 208 ) ( 1004 -840 208 ) brick1 -8 0 0 1 1
+( 963 -832 245 ) ( 1004 -832 245 ) ( 963 -840 245 ) TEXTURES/TILE/tile_019/tile_019-6 -32 0 0 1 1
+( 1004 -832 208 ) ( 1004 -832 245 ) ( 963 -832 208 ) brick1 -1.666626 -16 0 1 1
+( 1004 -840 208 ) ( 1004 -840 245 ) ( 1004 -832 208 ) TEXTURES/TILE/tile_019/tile_019-6 0 3 0 1 1
+}
+}

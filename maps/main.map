@@ -3,77 +3,186 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures"
+"_tb_textures" "textures;textures/TEXTURES/CARPET;textures/TEXTURES/CARPET/carpet_01;textures/TEXTURES/CARPET/carpet_010;textures/TEXTURES/CARPET/carpet_013;textures/TEXTURES/CARPET/carpet_014;textures/TEXTURES/CARPET/carpet_015;textures/TEXTURES/CARPET/carpet_016;textures/TEXTURES/CARPET/carpet_017;textures/TEXTURES/CARPET/carpet_018;textures/TEXTURES/CARPET/carpet_019;textures/TEXTURES/CARPET/carpet_02;textures/TEXTURES/CARPET/carpet_020;textures/TEXTURES/CARPET/carpet_021;textures/TEXTURES/CARPET/carpet_022;textures/TEXTURES/CARPET/carpet_03;textures/TEXTURES/CARPET/carpet_04;textures/TEXTURES/CARPET/carpet_05;textures/TEXTURES/CARPET/carpet_06;textures/TEXTURES/CARPET/carpet_07;textures/TEXTURES/CARPET/carpet_08;textures/TEXTURES/CARPET/carpet_09;textures/TEXTURES/CARPET/generic carpet maps;textures/TEXTURES/CEILING;textures/TEXTURES/CITY;textures/TEXTURES/CITY/city_01;textures/TEXTURES/CITY/city_010;textures/TEXTURES/CITY/city_011;textures/TEXTURES/CITY/city_012;textures/TEXTURES/CITY/city_013;textures/TEXTURES/CITY/city_014;textures/TEXTURES/CITY/city_015;textures/TEXTURES/CITY/city_017;textures/TEXTURES/CITY/city_018;textures/TEXTURES/CITY/city_019;textures/TEXTURES/CITY/city_02;textures/TEXTURES/CITY/city_020;textures/TEXTURES/CITY/city_03;textures/TEXTURES/CITY/city_04;textures/TEXTURES/CITY/city_05;textures/TEXTURES/CITY/city_06;textures/TEXTURES/CITY/city_07;textures/TEXTURES/CITY/city_08;textures/TEXTURES/CITY/city_09;textures/TEXTURES/METAL;textures/TEXTURES/METAL/metal_01;textures/TEXTURES/METAL/metal_02;textures/TEXTURES/METAL/metal_03;textures/TEXTURES/METAL/metal_04;textures/TEXTURES/METAL/metal_05;textures/TEXTURES/METAL/metal_06;textures/TEXTURES/METAL/metal_07;textures/TEXTURES/METAL/metal_08;textures/TEXTURES/METAL/metal_09;textures/TEXTURES/MISC;textures/TEXTURES/NATURAL;textures/TEXTURES/NATURAL/nature_01;textures/TEXTURES/NATURAL/nature_010;textures/TEXTURES/NATURAL/nature_011;textures/TEXTURES/NATURAL/nature_012;textures/TEXTURES/NATURAL/nature_013;textures/TEXTURES/NATURAL/nature_014;textures/TEXTURES/NATURAL/nature_015;textures/TEXTURES/NATURAL/nature_016;textures/TEXTURES/NATURAL/nature_017;textures/TEXTURES/NATURAL/nature_018;textures/TEXTURES/NATURAL/nature_019;textures/TEXTURES/NATURAL/nature_02;textures/TEXTURES/NATURAL/nature_03;textures/TEXTURES/NATURAL/nature_04;textures/TEXTURES/NATURAL/nature_05;textures/TEXTURES/NATURAL/nature_06;textures/TEXTURES/NATURAL/nature_07;textures/TEXTURES/NATURAL/nature_08;textures/TEXTURES/NATURAL/nature_09;textures/TEXTURES/SCIFI;textures/TEXTURES/SCIFI/scifi_01;textures/TEXTURES/SCIFI/scifi_010;textures/TEXTURES/SCIFI/scifi_011;textures/TEXTURES/SCIFI/scifi_012;textures/TEXTURES/SCIFI/scifi_013;textures/TEXTURES/SCIFI/scifi_014;textures/TEXTURES/SCIFI/scifi_015;textures/TEXTURES/SCIFI/scifi_016;textures/TEXTURES/SCIFI/scifi_017;textures/TEXTURES/SCIFI/scifi_018;textures/TEXTURES/SCIFI/scifi_019;textures/TEXTURES/SCIFI/scifi_02;textures/TEXTURES/SCIFI/scifi_020;textures/TEXTURES/SCIFI/scifi_021;textures/TEXTURES/SCIFI/scifi_022;textures/TEXTURES/SCIFI/scifi_023;textures/TEXTURES/SCIFI/scifi_024;textures/TEXTURES/SCIFI/scifi_025;textures/TEXTURES/SCIFI/scifi_026;textures/TEXTURES/SCIFI/scifi_027;textures/TEXTURES/SCIFI/scifi_028;textures/TEXTURES/SCIFI/scifi_029;textures/TEXTURES/SCIFI/scifi_03;textures/TEXTURES/SCIFI/scifi_030;textures/TEXTURES/SCIFI/scifi_031;textures/TEXTURES/SCIFI/scifi_032;textures/TEXTURES/SCIFI/scifi_033;textures/TEXTURES/SCIFI/scifi_034;textures/TEXTURES/SCIFI/scifi_035;textures/TEXTURES/SCIFI/scifi_036;textures/TEXTURES/SCIFI/scifi_037;textures/TEXTURES/SCIFI/scifi_038;textures/TEXTURES/SCIFI/scifi_039;textures/TEXTURES/SCIFI/scifi_04;textures/TEXTURES/SCIFI/scifi_040;textures/TEXTURES/SCIFI/scifi_041;textures/TEXTURES/SCIFI/scifi_042;textures/TEXTURES/SCIFI/scifi_043;textures/TEXTURES/SCIFI/scifi_044;textures/TEXTURES/SCIFI/scifi_045;textures/TEXTURES/SCIFI/scifi_046;textures/TEXTURES/SCIFI/scifi_047;textures/TEXTURES/SCIFI/scifi_048;textures/TEXTURES/SCIFI/scifi_049;textures/TEXTURES/SCIFI/scifi_05;textures/TEXTURES/SCIFI/scifi_050;textures/TEXTURES/SCIFI/scifi_051;textures/TEXTURES/SCIFI/scifi_052;textures/TEXTURES/SCIFI/scifi_053;textures/TEXTURES/SCIFI/scifi_054;textures/TEXTURES/SCIFI/scifi_06;textures/TEXTURES/SCIFI/scifi_07;textures/TEXTURES/SCIFI/scifi_08;textures/TEXTURES/SCIFI/scifi_09;textures/TEXTURES/STONE;textures/TEXTURES/STONE/stone_01;textures/TEXTURES/STONE/stone_010;textures/TEXTURES/STONE/stone_011;textures/TEXTURES/STONE/stone_012;textures/TEXTURES/STONE/stone_02;textures/TEXTURES/STONE/stone_03;textures/TEXTURES/STONE/stone_04;textures/TEXTURES/STONE/stone_05;textures/TEXTURES/STONE/stone_06;textures/TEXTURES/STONE/stone_07;textures/TEXTURES/STONE/stone_08;textures/TEXTURES/STONE/stone_09;textures/TEXTURES/TILE;textures/TEXTURES/TILE/tile_01;textures/TEXTURES/TILE/tile_010;textures/TEXTURES/TILE/tile_011;textures/TEXTURES/TILE/tile_012;textures/TEXTURES/TILE/tile_013;textures/TEXTURES/TILE/tile_014;textures/TEXTURES/TILE/tile_015;textures/TEXTURES/TILE/tile_016;textures/TEXTURES/TILE/tile_017;textures/TEXTURES/TILE/tile_018;textures/TEXTURES/TILE/tile_019;textures/TEXTURES/TILE/tile_02;textures/TEXTURES/TILE/tile_020;textures/TEXTURES/TILE/tile_021;textures/TEXTURES/TILE/tile_022;textures/TEXTURES/TILE/tile_023;textures/TEXTURES/TILE/tile_024;textures/TEXTURES/TILE/tile_025;textures/TEXTURES/TILE/tile_026;textures/TEXTURES/TILE/tile_03;textures/TEXTURES/TILE/tile_04;textures/TEXTURES/TILE/tile_05;textures/TEXTURES/TILE/tile_06;textures/TEXTURES/TILE/tile_07;textures/TEXTURES/TILE/tile_08;textures/TEXTURES/TILE/tile_09;textures/TEXTURES/WALL;textures/TEXTURES/WALL/wall_01;textures/TEXTURES/WALL/wall_010;textures/TEXTURES/WALL/wall_011;textures/TEXTURES/WALL/wall_012;textures/TEXTURES/WALL/wall_08"
+"_tb_mod" "textures"
 // brush 0
 {
-( 784 -64 -16 ) ( 784 -63 -16 ) ( 784 -64 -15 ) grass 0 0 0 1 1
-( -64 -860 -16 ) ( -64 -860 -15 ) ( -63 -860 -16 ) grass 0 0 0 1 1
-( -64 -64 64 ) ( -63 -64 64 ) ( -64 -63 64 ) grass 0 0 0 1 1
-( 64 64 96 ) ( 64 65 96 ) ( 65 64 96 ) grass 0 0 0 1 1
-( 64 -368 16 ) ( 65 -368 16 ) ( 64 -368 17 ) grass 0 0 0 1 1
-( 1280 64 16 ) ( 1280 64 17 ) ( 1280 65 16 ) grass 0 0 0 1 1
+( 464 -176 304 ) ( 464 -175 304 ) ( 464 -176 305 ) TEXTURES/TILE/tile_019/tile_019-6 -16 0 0 1 1
+( -304 -908 304 ) ( -304 -908 305 ) ( -303 -908 304 ) TEXTURES/TILE/tile_019/tile_019-6 -8 0 0 1 1
+( -304 -176 176 ) ( -303 -176 176 ) ( -304 -175 176 ) TEXTURES/TILE/tile_019/tile_019-6 -8 16 0 1 1
+( -176 -48 208 ) ( -176 -47 208 ) ( -175 -48 208 ) TEXTURES/TILE/tile_019/tile_019-6 -8 16 0 1 1
+( -176 -656 336 ) ( -175 -656 336 ) ( -176 -656 337 ) TEXTURES/TILE/tile_019/tile_019-6 31 17 0 1 1
+( 984 -48 336 ) ( 984 -48 337 ) ( 984 -47 336 ) TEXTURES/TILE/tile_019/tile_019-6 -16 0 0 1 1
 }
 // brush 1
 {
-( 784 -128 304 ) ( 784 -127 304 ) ( 784 -128 305 ) brick1 0 0 0 1 1
-( 16 -860 304 ) ( 16 -860 305 ) ( 17 -860 304 ) brick1 -8 0 0 1 1
-( 16 -128 96 ) ( 17 -128 96 ) ( 16 -127 96 ) brick1 -8 0 0 1 1
-( 144 0 208 ) ( 144 1 208 ) ( 145 0 208 ) brick1 -8 0 0 1 1
-( 144 -608 336 ) ( 145 -608 336 ) ( 144 -608 337 ) brick1 -1.6666565 0 0 1 1
-( 6280 0 336 ) ( 6280 0 337 ) ( 6280 1 336 ) brick1 0 0 0 1 1
+( 432 76 384 ) ( 432 77 384 ) ( 432 76 385 ) brick1 -12 -16 0 1 1
+( -304 -656 384 ) ( -304 -656 385 ) ( -303 -656 384 ) brick1 -8 -16 0 1 1
+( -304 76 176 ) ( -303 76 176 ) ( -304 77 176 ) brick1 -8 12 0 1 1
+( -176 204 256 ) ( -176 205 256 ) ( -175 204 256 ) brick1 -8 12 0 1 1
+( -176 -628 416 ) ( -175 -628 416 ) ( -176 -628 417 ) brick1 -1.666626 -16 0 1 1
+( 960 204 416 ) ( 960 204 417 ) ( 960 205 416 ) brick1 -12 -16 0 1 1
 }
 // brush 2
 {
-( 784 -128 416 ) ( 784 -127 416 ) ( 784 -128 417 ) brick1 0 -16 0 1 1
-( 16 -860 416 ) ( 16 -860 417 ) ( 17 -860 416 ) brick1 -8 -16 0 1 1
-( 16 -128 208 ) ( 17 -128 208 ) ( 16 -127 208 ) brick1 -8 0 0 1 1
-( 144 0 320 ) ( 144 1 320 ) ( 145 0 320 ) brick1 -8 0 0 1 1
-( 144 -832 448 ) ( 145 -832 448 ) ( 144 -832 449 ) brick1 -1.666626 -16 0 1 1
-( 1280 0 448 ) ( 1280 0 449 ) ( 1280 1 448 ) brick1 0 -16 0 1 1
+( 432 388 416 ) ( 432 388 417 ) ( 432 387 416 ) brick1 12 -16 180 1 -1
+( 1324 -880 448 ) ( 1324 -880 449 ) ( 1325 -880 448 ) brick1 20 -16 0 1 1
+( 1196 388 208 ) ( 1196 387 208 ) ( 1197 388 208 ) brick1 12 -20 270 1 1
+( 1324 260 256 ) ( 1325 260 256 ) ( 1324 259 256 ) brick1 12 -20 270 1 1
+( 1196 -656 416 ) ( 1197 -656 416 ) ( 1196 -656 417 ) brick1 20 -16 0 1 1
+( 492 260 448 ) ( 492 259 448 ) ( 492 260 449 ) brick1 18.333374 -16 180 1 -1
 }
 // brush 3
 {
-( 784 96 416 ) ( 784 97 416 ) ( 784 96 417 ) brick1 0 -16 0 1 1
-( 16 -636 416 ) ( 16 -636 417 ) ( 17 -636 416 ) brick1 24 -16 0 1 1
-( 16 96 208 ) ( 17 96 208 ) ( 16 97 208 ) brick1 24 0 0 1 1
-( 144 224 256 ) ( 144 225 256 ) ( 145 224 256 ) brick1 24 0 0 1 1
-( 144 -608 448 ) ( 145 -608 448 ) ( 144 -608 449 ) brick1 30.333374 -16 0 1 1
-( 1280 224 448 ) ( 1280 224 449 ) ( 1280 225 448 ) brick1 0 -16 0 1 1
+( 968 -152 416 ) ( 968 -151 416 ) ( 968 -152 417 ) brick1 -8 -16 0 1 1
+( -96 -884 416 ) ( -96 -884 417 ) ( -95 -884 416 ) brick1 8 -16 0 1 1
+( -96 -152 208 ) ( -95 -152 208 ) ( -96 -151 208 ) brick1 8 8 0 1 1
+( 32 -24 320 ) ( 32 -23 320 ) ( 33 -24 320 ) brick1 8 8 0 1 1
+( 32 -784 448 ) ( 33 -784 448 ) ( 32 -784 449 ) brick1 14.333374 -16 0 1 1
+( 992 -24 448 ) ( 992 -24 449 ) ( 992 -23 448 ) brick1 -8 -16 0 1 1
 }
 // brush 4
 {
-( 784 436 416 ) ( 784 436 417 ) ( 784 435 416 ) brick1 -4 -16 180 1 -1
-( 1644 -832 448 ) ( 1644 -832 449 ) ( 1645 -832 448 ) brick1 -12 -16 0 1 1
-( 1516 436 208 ) ( 1516 435 208 ) ( 1517 436 208 ) brick1 -4 12 270 1 1
-( 1644 308 256 ) ( 1645 308 256 ) ( 1644 307 256 ) brick1 -4 12 270 1 1
-( 1516 -636 416 ) ( 1517 -636 416 ) ( 1516 -636 417 ) brick1 -12 -16 0 1 1
-( 812 308 448 ) ( 812 307 448 ) ( 812 308 449 ) brick1 2.333374 -16 180 1 -1
+( 960 8 416 ) ( 960 9 416 ) ( 960 8 417 ) brick1 -8 -16 0 1 1
+( -104 -724 416 ) ( -104 -724 417 ) ( -103 -724 416 ) brick1 16 -16 0 1 1
+( -104 8 208 ) ( -103 8 208 ) ( -104 9 208 ) brick1 16 8 0 1 1
+( 24 136 320 ) ( 24 137 320 ) ( 25 136 320 ) brick1 16 8 0 1 1
+( 24 -624 448 ) ( 25 -624 448 ) ( 24 -624 449 ) brick1 22.333374 -16 0 1 1
+( 984 136 448 ) ( 984 136 449 ) ( 984 137 448 ) brick1 -8 -16 0 1 1
 }
 // brush 5
 {
-( 812 -48 416 ) ( 812 -47 416 ) ( 812 -48 417 ) brick1 16 -16 0 1 1
-( 16 -780 416 ) ( 16 -780 417 ) ( 17 -780 416 ) brick1 -8 -16 0 1 1
-( 16 -48 208 ) ( 17 -48 208 ) ( 16 -47 208 ) brick1 -8 -16 0 1 1
-( 144 80 256 ) ( 144 81 256 ) ( 145 80 256 ) brick1 -8 -16 0 1 1
-( 144 -768 448 ) ( 145 -768 448 ) ( 144 -768 449 ) brick1 -1.666626 -16 0 1 1
-( 1096 80 448 ) ( 1096 80 449 ) ( 1096 81 448 ) brick1 16 -16 0 1 1
+( 656 44 384 ) ( 656 45 384 ) ( 656 44 385 ) brick1 -12 -16 0 1 1
+( -128 -808 384 ) ( -128 -808 385 ) ( -127 -808 384 ) brick1 8 -16 0 1 1
+( -128 44 208 ) ( -127 44 208 ) ( -128 45 208 ) brick1 8 12 0 1 1
+( 0 172 344 ) ( 0 173 344 ) ( 1 172 344 ) brick1 8 12 0 1 1
+( 0 -656 416 ) ( 1 -656 416 ) ( 0 -656 417 ) brick1 14.333374 -16 0 1 1
+( 688 172 416 ) ( 688 172 417 ) ( 688 173 416 ) brick1 -12 -16 0 1 1
 }
 // brush 6
 {
-( 812 16 416 ) ( 812 17 416 ) ( 812 16 417 ) brick1 -16 -16 0 1 1
-( 16 -716 416 ) ( 16 -716 417 ) ( 17 -716 416 ) brick1 -8 -16 0 1 1
-( 16 16 208 ) ( 17 16 208 ) ( 16 17 208 ) brick1 -8 16 0 1 1
-( 144 144 240 ) ( 144 145 240 ) ( 145 144 240 ) brick1 -8 16 0 1 1
-( 144 -704 448 ) ( 145 -704 448 ) ( 144 -704 449 ) brick1 -1.666626 -16 0 1 1
-( 1096 144 448 ) ( 1096 144 449 ) ( 1096 145 448 ) brick1 -16 -16 0 1 1
+( 504 -720 208 ) ( 504 -719 208 ) ( 504 -720 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 0 0 1 1
+( 504 -760 208 ) ( 504 -760 209 ) ( 505 -760 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 0 0 1 1
+( 504 -720 216 ) ( 505 -720 216 ) ( 504 -719 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 8 0 1 1
+( 560 -664 224 ) ( 560 -663 224 ) ( 561 -664 224 ) TEXTURES/WEIRD/weird_02/weird_02-2 0 8 0 1 1
+( 560 -664 216 ) ( 561 -664 216 ) ( 560 -664 217 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 0 0 1 1
+( 560 -664 216 ) ( 560 -664 217 ) ( 560 -663 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 0 0 1 1
 }
 // brush 7
 {
-( 1504 360 1584 ) ( 1504 361 1584 ) ( 1504 360 1585 ) brick1 -8 0 0 1 1
-( 736 -372 1584 ) ( 736 -372 1585 ) ( 737 -372 1584 ) brick1 -24 0 0 1 1
-( 736 360 320 ) ( 737 360 320 ) ( 736 361 320 ) brick1 -24 8 0 1 1
-( 864 488 1680 ) ( 864 489 1680 ) ( 865 488 1680 ) brick1 -24 8 0 1 1
-( 864 -120 1616 ) ( 865 -120 1616 ) ( 864 -120 1617 ) brick1 -17.666992 0 0 1 1
-( 7000 488 1616 ) ( 7000 488 1617 ) ( 7000 489 1616 ) brick1 -8 0 0 1 1
+( 512 -688 224 ) ( 512 -687 224 ) ( 512 -688 225 ) TEXTURES/WALL/wall_09/wall_09-2 -8 0 0 1 1
+( 512 -680 224 ) ( 512 -680 225 ) ( 513 -680 224 ) TEXTURES/WALL/wall_09/wall_09-2 0 0 0 1 1
+( 512 -688 224 ) ( 513 -688 224 ) ( 512 -687 224 ) TEXTURES/WALL/wall_09/wall_09-2 0 8 0 1 1
+( 552 -664 232 ) ( 552 -663 232 ) ( 553 -664 232 ) TEXTURES/WALL/wall_09/wall_09-2 0 8 0 1 1
+( 552 -664 232 ) ( 553 -664 232 ) ( 552 -664 233 ) TEXTURES/WALL/wall_09/wall_09-2 0 0 0 1 1
+( 552 -664 232 ) ( 552 -664 233 ) ( 552 -663 232 ) TEXTURES/WALL/wall_09/wall_09-2 -8 0 0 1 1
+}
+// brush 8
+{
+( 504 -720 200 ) ( 504 -719 200 ) ( 504 -720 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 -8 0 1 1
+( 504 -760 200 ) ( 504 -760 201 ) ( 505 -760 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 504 -720 208 ) ( 505 -720 208 ) ( 504 -719 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 8 0 1 1
+( 560 -664 216 ) ( 560 -663 216 ) ( 561 -664 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 8 0 1 1
+( 560 -752 208 ) ( 561 -752 208 ) ( 560 -752 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 512 -664 208 ) ( 512 -664 209 ) ( 512 -663 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 -8 0 1 1
+}
+// brush 9
+{
+( 552 -720 200 ) ( 552 -719 200 ) ( 552 -720 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 -8 0 1 1
+( 552 -760 200 ) ( 552 -760 201 ) ( 553 -760 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 552 -720 208 ) ( 553 -720 208 ) ( 552 -719 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 8 0 1 1
+( 608 -664 216 ) ( 608 -663 216 ) ( 609 -664 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 8 0 1 1
+( 608 -752 208 ) ( 609 -752 208 ) ( 608 -752 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 560 -664 208 ) ( 560 -664 209 ) ( 560 -663 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 -8 -8 0 1 1
+}
+// brush 10
+{
+( 552 -632 200 ) ( 552 -631 200 ) ( 552 -632 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 32 -8 0 1 1
+( 552 -672 200 ) ( 552 -672 201 ) ( 553 -672 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 552 -632 208 ) ( 553 -632 208 ) ( 552 -631 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -32 0 1 1
+( 608 -576 216 ) ( 608 -575 216 ) ( 609 -576 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -32 0 1 1
+( 608 -664 208 ) ( 609 -664 208 ) ( 608 -664 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 16 -8 0 1 1
+( 560 -576 208 ) ( 560 -576 209 ) ( 560 -575 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 32 -8 0 1 1
+}
+// brush 11
+{
+( 504 -632 200 ) ( 504 -631 200 ) ( 504 -632 201 ) TEXTURES/WEIRD/weird_03/weird_03-2 32 -8 0 1 1
+( 504 -672 200 ) ( 504 -672 201 ) ( 505 -672 200 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 504 -632 208 ) ( 505 -632 208 ) ( 504 -631 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -32 0 1 1
+( 560 -576 216 ) ( 560 -575 216 ) ( 561 -576 216 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -32 0 1 1
+( 560 -664 208 ) ( 561 -664 208 ) ( 560 -664 209 ) TEXTURES/WEIRD/weird_03/weird_03-2 0 -8 0 1 1
+( 512 -576 208 ) ( 512 -576 209 ) ( 512 -575 208 ) TEXTURES/WEIRD/weird_03/weird_03-2 32 -8 0 1 1
+}
+// brush 12
+{
+( 424 -888 208 ) ( 424 -880 208 ) ( 424 -888 320 ) brick1 -16 -16 0 1 1
+( 424 -888 320 ) ( 539 -888 320 ) ( 424 -888 208 ) brick1 -8 -16 0 1 1
+( 424 -888 208 ) ( 539 -888 208 ) ( 424 -880 208 ) brick1 -8 16 0 1 1
+( 424 -880 320 ) ( 539 -880 320 ) ( 424 -888 320 ) brick1 -8 16 0 1 1
+( 424 -880 208 ) ( 539 -880 208 ) ( 424 -880 320 ) brick1 -1.666626 -16 0 1 1
+( 539 -888 208 ) ( 539 -888 320 ) ( 539 -880 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 13
+{
+( 539 -888 320 ) ( 539 -888 287 ) ( 539 -880 320 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 580 -888 320 ) ( 580 -888 287 ) ( 539 -888 320 ) brick1 -8 -16 0 1 1
+( 580 -888 287 ) ( 580 -880 287 ) ( 539 -888 287 ) TEXTURES/TILE/tile_019/tile_019-6 8 16 0 1 1
+( 580 -888 320 ) ( 539 -888 320 ) ( 580 -880 320 ) brick1 -8 16 0 1 1
+( 539 -880 320 ) ( 539 -880 287 ) ( 580 -880 320 ) brick1 -1.666626 -16 0 1 1
+( 580 -880 320 ) ( 580 -880 287 ) ( 580 -888 320 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 14
+{
+( 539 -880 208 ) ( 539 -880 245 ) ( 539 -888 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 539 -888 208 ) ( 539 -888 245 ) ( 580 -888 208 ) brick1 -8 -16 0 1 1
+( 580 -880 208 ) ( 539 -880 208 ) ( 580 -888 208 ) brick1 -8 16 0 1 1
+( 539 -880 245 ) ( 580 -880 245 ) ( 539 -888 245 ) TEXTURES/TILE/tile_019/tile_019-6 8 16 0 1 1
+( 580 -880 208 ) ( 580 -880 245 ) ( 539 -880 208 ) brick1 -1.666626 -16 0 1 1
+( 580 -888 208 ) ( 580 -888 245 ) ( 580 -880 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 15
+{
+( 684 -880 320 ) ( 684 -888 320 ) ( 684 -880 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 992 -888 208 ) ( 684 -888 208 ) ( 992 -888 320 ) brick1 -8 -16 0 1 1
+( 992 -880 208 ) ( 684 -880 208 ) ( 992 -888 208 ) brick1 -8 16 0 1 1
+( 992 -888 320 ) ( 684 -888 320 ) ( 992 -880 320 ) brick1 -8 16 0 1 1
+( 992 -880 320 ) ( 684 -880 320 ) ( 992 -880 208 ) brick1 -1.666626 -16 0 1 1
+( 992 -888 320 ) ( 992 -880 320 ) ( 992 -888 208 ) brick1 -16 -16 0 1 1
+}
+// brush 16
+{
+( 580 -888 208 ) ( 580 -880 208 ) ( 580 -888 320 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 580 -888 320 ) ( 643 -888 320 ) ( 580 -888 208 ) brick1 -8 -16 0 1 1
+( 580 -888 208 ) ( 643 -888 208 ) ( 580 -880 208 ) brick1 -8 16 0 1 1
+( 580 -880 320 ) ( 643 -880 320 ) ( 580 -888 320 ) brick1 -8 16 0 1 1
+( 580 -880 208 ) ( 643 -880 208 ) ( 580 -880 320 ) brick1 -1.666626 -16 0 1 1
+( 643 -888 208 ) ( 643 -888 320 ) ( 643 -880 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 17
+{
+( 643 -888 320 ) ( 643 -888 287 ) ( 643 -880 320 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 684 -888 320 ) ( 684 -888 287 ) ( 643 -888 320 ) brick1 -8 -16 0 1 1
+( 684 -888 287 ) ( 684 -880 287 ) ( 643 -888 287 ) TEXTURES/TILE/tile_019/tile_019-6 32 16 0 1 1
+( 684 -888 320 ) ( 643 -888 320 ) ( 684 -880 320 ) brick1 -8 16 0 1 1
+( 643 -880 320 ) ( 643 -880 287 ) ( 684 -880 320 ) brick1 -1.666626 -16 0 1 1
+( 684 -880 320 ) ( 684 -880 287 ) ( 684 -888 320 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 18
+{
+( 643 -880 208 ) ( 643 -880 245 ) ( 643 -888 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+( 643 -888 208 ) ( 643 -888 245 ) ( 684 -888 208 ) brick1 -8 -16 0 1 1
+( 684 -880 208 ) ( 643 -880 208 ) ( 684 -888 208 ) brick1 -8 16 0 1 1
+( 643 -880 245 ) ( 684 -880 245 ) ( 643 -888 245 ) TEXTURES/TILE/tile_019/tile_019-6 32 16 0 1 1
+( 684 -880 208 ) ( 684 -880 245 ) ( 643 -880 208 ) brick1 -1.666626 -16 0 1 1
+( 684 -888 208 ) ( 684 -888 245 ) ( 684 -880 208 ) TEXTURES/TILE/tile_019/tile_019-6 -16 3 0 1 1
+}
+// brush 19
+{
+( 784 -800 240 ) ( 784 -799 240 ) ( 784 -800 241 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
+( 784 -800 240 ) ( 784 -800 241 ) ( 785 -800 240 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
+( 784 -800 240 ) ( 785 -800 240 ) ( 784 -799 240 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
+( 864 -736 272 ) ( 864 -735 272 ) ( 865 -736 272 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
+( 864 -736 256 ) ( 865 -736 256 ) ( 864 -736 257 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
+( 864 -736 256 ) ( 864 -736 257 ) ( 864 -735 256 ) TEXTURES/CARPET/carpet_016/carpet_016-8 0 0 0 1 1
 }
 }

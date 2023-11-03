@@ -123,7 +123,7 @@ func shoot():
 	if obj.name == "mobArea":
 		parent.damage_process(self.position)
 	
-func _on_col_area_area_exited(area):
+func _on_col_area_area_exited(_area):
 	canGetHit = true
 
 
