@@ -13,3 +13,11 @@ config_version=5
 config/name="Substance"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Substance"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/qodot/plugin.cfg")
