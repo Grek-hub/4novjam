@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://1txi6bgggyni"]
+
+[ext_resource type="Texture2D" uid="uid://byveu7pgyt11j" path="res://icon.svg" id="1_gjbyo"]
+[ext_resource type="Script" path="res://scenes/mobs/mobMovement.gd" id="1_rm40g"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdakp"]
+
+[node name="mob" type="CharacterBody3D"]
+script = ExtResource("1_rm40g")
+
+[node name="mobSprite" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.516386, 0)
+texture = ExtResource("1_gjbyo")
+
+[node name="colShape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.594527, 0)
+shape = SubResource("CapsuleShape3D_gdakp")
+
+[node name="navEng" type="NavigationAgent3D" parent="."]
